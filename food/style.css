@@ -1,0 +1,175 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	height: 100%;
+	background-color: #3C6382;
+}
+
+header h1 {
+	display: inline-block;
+	float: left;
+	padding: 15px 24px;
+}
+
+header h1 a {
+	color: white;
+}
+
+/*header h1 a:hover{
+	color: #F8C291;
+}*/
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	padding: 24px;
+	display: inline-block;
+}
+
+header ul li a {
+	transition: .3s;
+	color: white;
+}
+
+header ul li a:hover {
+	color: #F8C291;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.banner {
+	height: 75vh;
+	background-image: url(../assets/https___inr-production-content-bucket.s3.ap-southeast-1.amazonaws.com_INR_PRODUCTION_photo_pre_2022_02_21_b41f11d9-1d98-4b2c-b91a-b785515644f2_jpg.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	z-index: 1;
+}
+
+.banner-me {
+	text-align: center;
+	color: white;
+	z-index: 1;
+	margin-left: 60px;
+}
+
+.banner .banner-me .banner-dis a {
+	transition: .3s;
+	color: white;
+}
+
+.banner .banner-me .banner-dis a:hover {
+	color: #F8C291;
+}
+
+.banner {
+	width: 100%;
+	margin: 0;
+}
+
+.banner::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.banner-me h2 {
+	font-size: 50px;
+}
+
+.banner-dis {
+	text-align: center;
+	color: white;
+	padding: 10px 15px;
+	border: 2px solid white;
+}
+
+
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .6);
+}
+
+section {
+	padding: 50px 0;
+}
+
+.isifood {
+	color: black;
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: justify;
+    font-weight: 200;
+	margin: 60px;
+	margin-top: -20px;
+    position: relative;
+}
+
+.isifood p {
+	color: #666;
+}
+
+.contact {
+	padding-bottom: 15px;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	color: #3C6382;
+}
+
+.declar {
+	display: flex;
+	justify-content: center;
+}
+
+.ul-contact {
+	display: flex;
+	justify-content: center;
+}
+
+.li-contact {
+	padding: 5px;
+	margin: 10px;
+	list-style-type: none;
+}
+
+footer {
+	padding: 30px 0;
+	background-color: #3C6382;
+	color: #fff;
+	text-align: center;
+}
+
+.info p {
+	padding: 30px 0;
+	margin-top: 40px;
+    margin-left: 60px;
+	color: #3C6382;
+	text-align: center;
+}
